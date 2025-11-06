@@ -21,6 +21,10 @@ environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
+  sms_scheduler:
+    git:
+      url: https://github.com/CelestialBrain/sms-scheduler
+      ref: main
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -55,9 +59,6 @@ dependencies:
   shared_preferences_platform_interface: 2.4.1
   shared_preferences_web: 2.4.3
   shared_preferences_windows: 2.4.1
-  sms_scheduler:
-    git:
-      url: https://github.com/CelestialBrain/sms-scheduler
   sqflite: 2.3.3+1
   sqflite_common: 2.5.4+3
   timeago: 3.7.1
